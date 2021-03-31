@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: stateOfAggregation
+  title: State of Aggregation
+  author: Sir Bl4ckl1on, eXish
+  description: "This is a reupload of a module, unsubscribe from the old version here:
+    https://steamcommunity.com/sharedfiles/filedetails/?id=1969529078\n\nChoose the
+    correct chemical group and a fitting temperature to the given chemical element.\r\n\r\nChange
+    the mode of the module in the modSettings file!\r\nThe module has an all-temperatures-mode
+    where all temperatures (\xB0C, K and \xB0F) will be used or an easier mode where
+    only \xB0C will be used.\n\nHTML: https://ktane.timwi.de/HTML/State%20of%20Aggregation.html\nPDF:
+    https://ktane.timwi.de/PDF/State%20of%20Aggregation.pdf\n\nState of Aggregation
+    (stateOfAggregation) v1.0.6\nModule by Sir Bl4ckl1on, maintained by eXish\nTwitch
+    Plays supported"
+  version: 1.0.6
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: 0b39730ecc5dbef428596d389141c8c9, type: 3}

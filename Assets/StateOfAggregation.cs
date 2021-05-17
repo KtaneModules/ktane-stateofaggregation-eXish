@@ -50,6 +50,7 @@ public class StateOfAggregation : MonoBehaviour {
 	{
 		temps = new string[][]
 		{
+			//0
 			new string[]
 			{
 				"-273",
@@ -57,6 +58,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-272.5",
 				"-272.3"
 			},
+			//1
 			new string[]
 			{
 				"-272.1",
@@ -64,6 +66,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-269.9",
 				"-269"
 			},
+			//2
 			new string[]
 			{
 				"-259.9",
@@ -71,6 +74,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-253.9",
 				"-257.4"
 			},
+			//3
 			new string[]
 			{
 				"-252.8",
@@ -78,6 +82,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-249.9",
 				"-248.9"
 			},
+			//4
 			new string[]
 			{
 				"-248.1",
@@ -85,6 +90,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-247.2",
 				"-247.1"
 			},
+			//5
 			new string[]
 			{
 				"-204.8",
@@ -92,6 +98,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-202.2",
 				"-199.9"
 			},
+			//6
 			new string[]
 			{
 				"-182.3",
@@ -99,6 +106,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-153",
 				"-101"
 			},
+			//7
 			new string[]
 			{
 				"-96",
@@ -106,6 +114,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-69",
 				"-40"
 			},
+			//8
 			new string[]
 			{
 				"4",
@@ -113,6 +122,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"30",
 				"42"
 			},
+			//9
 			new string[]
 			{
 				"53.6",
@@ -120,6 +130,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"96",
 				"122.9"
 			},
+			//10
 			new string[]
 			{
 				"187.1",
@@ -127,6 +138,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"419.9",
 				"442.9"
 			},
+			//11
 			new string[]
 			{
 				"503",
@@ -134,6 +146,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"613",
 				"642"
 			},
+			//12
 			new string[]
 			{
 				"706",
@@ -141,6 +154,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"966",
 				"969"
 			},
+			//13
 			new string[]
 			{
 				"1001",
@@ -148,6 +162,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"1202.1",
 				"1310"
 			},
+			//14
 			new string[]
 			{
 				"1450",
@@ -155,6 +170,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"1949.2",
 				"1999.9"
 			},
+			//15
 			new string[]
 			{
 				"2305.6",
@@ -162,6 +178,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"2424.2",
 				"2444.2"
 			},
+			//16
 			new string[]
 			{
 				"2670",
@@ -169,6 +186,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"3198.9",
 				"3530"
 			},
+			//17
 			new string[]
 			{
 				"3600",
@@ -176,6 +194,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"3997.1",
 				"4021.1"
 			},
+			//18
 			new string[]
 			{
 				"4850",
@@ -183,6 +202,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"5347.6",
 				"5926.9"
 			},
+			//19
 			new string[]
 			{
 				"5936.9",
@@ -190,6 +210,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"6996.9",
 				"7464"
 			},
+			//20
 			new string[]
 			{
 				"-189.3",
@@ -197,6 +218,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-186.1",
 				"-186"
 			},
+			//21
 			new string[]
 			{
 				"-156.5",
@@ -204,6 +226,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-153",
 				"-152.9"
 			},
+			//22
 			new string[]
 			{
 				"114",
@@ -211,6 +234,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"151",
 				"182"
 			},
+			//23
 			new string[]
 			{
 				"-111.3",
@@ -218,6 +242,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-109",
 				"-107.5"
 			},
+			//24
 			new string[]
 			{
 				"1550",

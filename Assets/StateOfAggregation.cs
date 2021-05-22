@@ -663,7 +663,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"6",
 				"10",
 				"11",
-				"12"
+				"13"
 			},
 			new string[]
 			{
@@ -883,7 +883,7 @@ public class StateOfAggregation : MonoBehaviour {
 			},
 			new string[]
 			{
-				"Ti",
+				"Tl",
 				"5",
 				"9",
 				"12",

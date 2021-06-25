@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
@@ -69,10 +70,10 @@ public class StateOfAggregation : MonoBehaviour {
 			//2
 			new string[]
 			{
-				"-259.9",
+				"-259",
+				"-257.4",
 				"-255",
-				"-253.9",
-				"-257.4"
+				"-253.9"
 			},
 			//3
 			new string[]
@@ -181,7 +182,7 @@ public class StateOfAggregation : MonoBehaviour {
 			//16
 			new string[]
 			{
-				"2670",
+				"2672",
 				"3010.9",
 				"3198.9",
 				"3530"
@@ -221,10 +222,10 @@ public class StateOfAggregation : MonoBehaviour {
 			//21
 			new string[]
 			{
-				"-156.5",
+				"-157.3",
 				"-155.9",
-				"-153",
-				"-152.9"
+				"-154",
+				"-153.5"
 			},
 			//22
 			new string[]
@@ -240,7 +241,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"-111.3",
 				"-110.9",
 				"-109",
-				"-107.5"
+				"-108.2"
 			},
 			//24
 			new string[]
@@ -249,6 +250,30 @@ public class StateOfAggregation : MonoBehaviour {
 				"1566.9",
 				"1602.1",
 				"1724"
+			},
+			//25
+			new string[]
+			{
+				"831",
+				"889.3",
+				"944.7",
+				"1190"
+			},
+			//26
+			new string[]
+			{
+				"303",
+				"310.3",
+				"323.8",
+				"336.1"
+			},
+			//27
+			new string[]
+			{
+				"-69",
+				"-65.8",
+				"-63.4",
+				"-62"
 			},
 			new string[]
 			{
@@ -278,31 +303,23 @@ public class StateOfAggregation : MonoBehaviour {
 				"Li",
 				"0",
 				"9",
-				"11",
+				"10/11/12/13/25/26",
 				"14"
 			},
 			new string[]
 			{
 				"Be",
 				"1",
-				"12",
-				"14",
-				"17"
+				"25",
+				"14/15/24",
+				"16"
 			},
 			new string[]
 			{
 				"B",
 				"6",
 				"14",
-				"15",
-				"17"
-			},
-			new string[]
-			{
-				"C",
-				"7",
-				"16",
-				"17",
+				"15/16",
 				"18"
 			},
 			new string[]
@@ -311,14 +328,14 @@ public class StateOfAggregation : MonoBehaviour {
 				"7",
 				"4",
 				"5",
-				"6"
+				"20"
 			},
 			new string[]
 			{
 				"O",
 				"7",
 				"4",
-				"5",
+				"5/20",
 				"6"
 			},
 			new string[]
@@ -342,7 +359,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Na",
 				"0",
 				"8",
-				"11",
+				"10/11/22/26",
 				"13"
 			},
 			new string[]
@@ -358,7 +375,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Al",
 				"5",
 				"11",
-				"12",
+				"12/13/14/15/24/25",
 				"16"
 			},
 			new string[]
@@ -366,31 +383,31 @@ public class StateOfAggregation : MonoBehaviour {
 				"Si",
 				"6",
 				"13",
-				"14",
-				"16"
+				"14/15/24",
+				"17"
 			},
 			new string[]
 			{
 				"P",
 				"7",
 				"8",
-				"9",
-				"11"
+				"9/22",
+				"26"
 			},
 			new string[]
 			{
 				"S",
 				"7",
 				"8",
-				"10",
+				"10/26",
 				"11"
 			},
 			new string[]
 			{
 				"Cl",
 				"7",
-				"6",
-				"7",
+				"23",
+				"7/27",
 				"8"
 			},
 			new string[]
@@ -406,8 +423,8 @@ public class StateOfAggregation : MonoBehaviour {
 				"K",
 				"0",
 				"8",
-				"10",
-				"13"
+				"10/11/22/26",
+				"25"
 			},
 			new string[]
 			{
@@ -415,14 +432,14 @@ public class StateOfAggregation : MonoBehaviour {
 				"1",
 				"11",
 				"13",
-				"15"
+				"24"
 			},
 			new string[]
 			{
 				"Sc",
 				"2",
 				"13",
-				"15",
+				"15/24",
 				"17"
 			},
 			new string[]
@@ -437,7 +454,7 @@ public class StateOfAggregation : MonoBehaviour {
 			{
 				"V",
 				"2",
-				"13",
+				"24",
 				"15",
 				"17"
 			},
@@ -445,7 +462,7 @@ public class StateOfAggregation : MonoBehaviour {
 			{
 				"Cr",
 				"2",
-				"13",
+				"24",
 				"15",
 				"16"
 			},
@@ -453,8 +470,8 @@ public class StateOfAggregation : MonoBehaviour {
 			{
 				"Mn",
 				"2",
-				"12",
-				"14",
+				"25",
+				"14/24",
 				"15"
 			},
 			new string[]
@@ -462,38 +479,38 @@ public class StateOfAggregation : MonoBehaviour {
 				"Fe",
 				"2",
 				"13",
-				"14",
-				"16"
+				"15/24",
+				"17"
 			},
 			new string[]
 			{
 				"Co",
 				"2",
 				"13",
-				"14",
-				"16"
+				"15/24",
+				"17"
 			},
 			new string[]
 			{
 				"Ni",
 				"2",
 				"13",
-				"14",
-				"16"
+				"15/24",
+				"17"
 			},
 			new string[]
 			{
 				"Cu",
 				"2",
 				"12",
-				"15",
+				"14/15/24",
 				"16"
 			},
 			new string[]
 			{
 				"Zn",
 				"2",
-				"10",
+				"26",
 				"11",
 				"13"
 			},
@@ -501,8 +518,8 @@ public class StateOfAggregation : MonoBehaviour {
 			{
 				"Ga",
 				"5",
-				"8",
-				"13",
+				"7",
+				"9/10/11/12/13/14/22/24/25/26",
 				"16"
 			},
 			new string[]
@@ -510,15 +527,15 @@ public class StateOfAggregation : MonoBehaviour {
 				"Ge",
 				"6",
 				"11",
-				"14",
+				"13/14/15/24",
 				"17"
 			},
 			new string[]
 			{
 				"Se",
 				"7",
-				"9",
-				"11",
+				"22",
+				"11/26",
 				"12"
 			},
 			new string[]
@@ -527,22 +544,22 @@ public class StateOfAggregation : MonoBehaviour {
 				"7",
 				"7",
 				"8",
-				"9"
+				"22"
 			},
 			new string[]
 			{
 				"Kr",
 				"8",
-				"5",
+				"20",
 				"21",
-				"7"
+				"23"
 			},
 			new string[]
 			{
 				"Rb",
 				"0",
 				"7",
-				"10",
+				"9/10/11/22/26",
 				"12"
 			},
 			new string[]
@@ -550,7 +567,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Sr",
 				"1",
 				"11",
-				"13",
+				"13/25",
 				"14"
 			},
 			new string[]
@@ -558,15 +575,15 @@ public class StateOfAggregation : MonoBehaviour {
 				"Y",
 				"2",
 				"13",
-				"15",
+				"15/24",
 				"17"
 			},
 			new string[]
 			{
 				"Zr",
 				"2",
-				"13",
-				"15",
+				"24",
+				"15/16/17",
 				"18"
 			},
 			new string[]
@@ -574,39 +591,39 @@ public class StateOfAggregation : MonoBehaviour {
 				"Nb",
 				"2",
 				"15",
-				"17",
-				"19"
+				"16/17",
+				"18"
 			},
 			new string[]
 			{
 				"Mo",
 				"2",
 				"15",
-				"17",
-				"19"
+				"16/17",
+				"18"
 			},
 			new string[]
 			{
 				"Tc",
 				"2",
 				"14",
-				"16",
-				"19"
+				"15/16/17",
+				"18"
 			},
 			new string[]
 			{
 				"Ru",
 				"2",
 				"14",
-				"16",
+				"16/17",
 				"18"
 			},
 			new string[]
 			{
 				"Rh",
 				"2",
-				"13",
-				"15",
+				"24",
+				"15/16",
 				"18"
 			},
 			new string[]
@@ -622,39 +639,39 @@ public class StateOfAggregation : MonoBehaviour {
 				"Ag",
 				"2",
 				"11",
-				"13",
+				"13/14/24",
 				"15"
 			},
 			new string[]
 			{
 				"Cd",
 				"2",
-				"9",
+				"22",
 				"11",
-				"13"
+				"25"
 			},
 			new string[]
 			{
 				"In",
 				"5",
 				"9",
-				"13",
+				"10/11/12/13/14/24/25/26",
 				"15"
 			},
 			new string[]
 			{
 				"Sn",
 				"5",
-				"9",
-				"13",
-				"15"
+				"22",
+				"11/12/13/14/15/24/25/26",
+				"16"
 			},
 			new string[]
 			{
 				"Sb",
 				"5",
 				"10",
-				"13",
+				"12/13/25",
 				"15"
 			},
 			new string[]
@@ -662,7 +679,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Te",
 				"6",
 				"10",
-				"11",
+				"11/12",
 				"13"
 			},
 			new string[]
@@ -686,7 +703,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Cs",
 				"0",
 				"7",
-				"10",
+				"9/10/11/22/26",
 				"12"
 			},
 			new string[]
@@ -694,7 +711,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Ba",
 				"1",
 				"11",
-				"13",
+				"13/24/25",
 				"15"
 			},
 			new string[]
@@ -702,7 +719,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"La",
 				"3",
 				"11",
-				"14",
+				"13/14/15/24",
 				"17"
 			},
 			new string[]
@@ -710,7 +727,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Ce",
 				"3",
 				"11",
-				"14",
+				"13/14/15/24/25",
 				"17"
 			},
 			new string[]
@@ -718,7 +735,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Pr",
 				"3",
 				"11",
-				"14",
+				"13/14/15/24",
 				"17"
 			},
 			new string[]
@@ -726,7 +743,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Nd",
 				"3",
 				"12",
-				"14",
+				"14/15/24",
 				"17"
 			},
 			new string[]
@@ -734,7 +751,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Pm",
 				"3",
 				"12",
-				"14",
+				"14/15/24",
 				"17"
 			},
 			new string[]
@@ -742,7 +759,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Sm",
 				"3",
 				"12",
-				"14",
+				"24",
 				"15"
 			},
 			new string[]
@@ -750,15 +767,15 @@ public class StateOfAggregation : MonoBehaviour {
 				"Eu",
 				"3",
 				"11",
-				"13",
-				"15"
+				"13/25",
+				"24"
 			},
 			new string[]
 			{
 				"Gd",
 				"3",
 				"13",
-				"14",
+				"14/15/24",
 				"17"
 			},
 			new string[]
@@ -766,7 +783,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Tb",
 				"3",
 				"13",
-				"14",
+				"14/15/24",
 				"17"
 			},
 			new string[]
@@ -774,7 +791,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Dy",
 				"3",
 				"13",
-				"14",
+				"14/15/24",
 				"16"
 			},
 			new string[]
@@ -782,7 +799,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Ho",
 				"3",
 				"13",
-				"15",
+				"15/24",
 				"17"
 			},
 			new string[]
@@ -790,8 +807,8 @@ public class StateOfAggregation : MonoBehaviour {
 				"Er",
 				"3",
 				"13",
-				"14",
-				"16"
+				"15/24",
+				"17"
 			},
 			new string[]
 			{
@@ -803,10 +820,18 @@ public class StateOfAggregation : MonoBehaviour {
 			},
 			new string[]
 			{
+				"Yb",
+				"3",
+				"11",
+				"25",
+				"14"
+			},
+			new string[]
+			{
 				"Lu",
 				"3",
 				"13",
-				"14",
+				"15",
 				"17"
 			},
 			new string[]
@@ -814,8 +839,8 @@ public class StateOfAggregation : MonoBehaviour {
 				"Hf",
 				"2",
 				"14",
-				"16",
-				"19"
+				"15/16/17",
+				"18"
 			},
 			new string[]
 			{
@@ -830,7 +855,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"W",
 				"2",
 				"15",
-				"17",
+				"17/18",
 				"19"
 			},
 			new string[]
@@ -853,16 +878,16 @@ public class StateOfAggregation : MonoBehaviour {
 			{
 				"Ir",
 				"2",
-				"14",
-				"16",
+				"15",
+				"16/17",
 				"18"
 			},
 			new string[]
 			{
 				"Pt",
 				"2",
-				"13",
-				"15",
+				"24",
+				"15/16",
 				"18"
 			},
 			new string[]
@@ -870,7 +895,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Au",
 				"2",
 				"12",
-				"14",
+				"14/15/24",
 				"17"
 			},
 			new string[]
@@ -878,71 +903,87 @@ public class StateOfAggregation : MonoBehaviour {
 				"Hg",
 				"2",
 				"7",
-				"9",
+				"8/9/22/26",
 				"11"
 			},
 			new string[]
 			{
 				"Tl",
 				"5",
-				"9",
-				"12",
-				"15"
+				"22",
+				"11/12/13/25",
+				"24"
 			},
 			new string[]
 			{
 				"Pb",
 				"5",
-				"9",
-				"12",
+				"22",
+				"11/12/13/24/25",
 				"15"
 			},
 			new string[]
 			{
 				"Bi",
 				"5",
-				"9",
-				"12",
+				"22",
+				"11/12/13/25/26",
 				"15"
 			},
 			new string[]
 			{
 				"Po",
 				"6",
-				"9",
-				"11",
+				"22",
+				"11/26",
 				"13"
+			},
+			new string[]
+			{
+				"At",
+				"7",
+				"22",
+				"26",
+				"11"
+			},
+			new string[]
+			{
+				"Rn",
+				"8",
+				"6",
+				"27",
+				"8"
 			},
 			new string[]
 			{
 				"Fr",
 				"0",
 				"7",
-				"10",
-				"13"
+				"9/10/11/22/26",
+				"12"
 			},
 			new string[]
 			{
 				"Ra",
 				"1",
 				"11",
-				"12",
-				"14"
+				"12/13/24/25",
+				"15"
 			},
 			new string[]
 			{
 				"Ac",
 				"4",
 				"12",
-				"14",
+				"14/15/24",
 				"17"
 			},
 			new string[]
 			{
 				"Th",
 				"4",
-				"13",
-				"15",
+				"24",
+				"15/16/17",
 				"18"
 			},
 			new string[]
@@ -950,7 +991,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Pa",
 				"4",
 				"13",
-				"14",
+				"15/16/17",
 				"18"
 			},
 			new string[]
@@ -958,7 +999,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"U",
 				"4",
 				"12",
-				"16",
+				"14/16/17/24",
 				"18"
 			},
 			new string[]
@@ -966,7 +1007,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Np",
 				"4",
 				"10",
-				"15",
+				"12/13/14/15/16/17/24/25",
 				"18"
 			},
 			new string[]
@@ -974,7 +1015,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Pu",
 				"4",
 				"10",
-				"15",
+				"12/13/14/15/24/25",
 				"17"
 			},
 			new string[]
@@ -982,7 +1023,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Am",
 				"4",
 				"12",
-				"13",
+				"13/14/15/24",
 				"16"
 			},
 			new string[]
@@ -990,7 +1031,7 @@ public class StateOfAggregation : MonoBehaviour {
 				"Cm",
 				"4",
 				"13",
-				"14",
+				"14/15/24",
 				"17"
 			}
 		};
@@ -1118,14 +1159,34 @@ public class StateOfAggregation : MonoBehaviour {
 				stageElem[2]
 			});
 		}
-		int num4;
-		if (!int.TryParse(stageElem[3], out num4))
-		{
-			Debug.LogFormat("[State of Aggregation #{0}] Something with liquidTempScale went wrong while trying to parse it to an Int: {1}", new object[]
+		string[] liqSplit = stageElem[3].Split('/');
+		List<string> liqTemps = new List<string>();
+		int[] num4 = new int[liqSplit.Length];
+		bool valid = true;
+		for (int i = 0; i < liqSplit.Length; i++)
+        {
+			if (!int.TryParse(liqSplit[i], out num4[i]))
 			{
+				Debug.LogFormat("[State of Aggregation #{0}] Something with liquidTempScale went wrong while trying to parse a part of it to an Int: {1}", new object[]
+				{
 				_moduleID,
 				stageElem[3]
-			});
+				});
+				valid = false;
+				for (int j = 0; j < 4; j++)
+					liqTemps.Add("0");
+				break;
+			}
+		}
+		if (valid)
+        {
+			for (int i = 0; i < 4; i++)
+			{
+				string s = temps[num4[UnityEngine.Random.Range(0, num4.Length)]][UnityEngine.Random.Range(0, 4)];
+				while (liqTemps.Contains(s))
+					s = temps[num4[UnityEngine.Random.Range(0, num4.Length)]][UnityEngine.Random.Range(0, 4)];
+				liqTemps.Add(s);
+			}
 		}
 		int num5;
 		if (!int.TryParse(stageElem[4], out num5))
@@ -1158,19 +1219,19 @@ public class StateOfAggregation : MonoBehaviour {
 			{
 				if (status == 2)
 				{
-					displayedTemps = TemperatureConverter(BuildTemp(temps[num2][num], temps[num3], temps[num4]));
+					displayedTemps = TemperatureConverter(BuildTemp(temps[num2][num], temps[num3], liqTemps.ToArray()));
 					Temp.text = displayedTemps[0];
 				}
 			}
 			else
 			{
-				displayedTemps = TemperatureConverter(BuildTemp(temps[num2][num], temps[num3], temps[num5]));
+				displayedTemps = TemperatureConverter(BuildTemp(liqTemps[num], temps[num3], temps[num5]));
 				Temp.text = displayedTemps[0];
 			}
 		}
 		else
 		{
-			displayedTemps = TemperatureConverter(BuildTemp(temps[num2][num], temps[num4], temps[num5]));
+			displayedTemps = TemperatureConverter(BuildTemp(temps[num2][num], liqTemps.ToArray(), temps[num5]));
 			Temp.text = displayedTemps[0];
 		}
 	}
@@ -1255,10 +1316,28 @@ public class StateOfAggregation : MonoBehaviour {
 						array[i] = num + "°C";
 						break;
 					case 1:
-						array[i] = (num + 273.0).ToString() + "K";
+						string n = (num + 273.0).ToString();
+						if (n.Split('.').Length == 2)
+                        {
+							if (n.Split('.')[1].Length > 2)
+								array[i] = (num + 273.0).ToString("0.00") + "K";
+							else
+								array[i] = (num + 273.0).ToString() + "K";
+						}
+						else
+							array[i] = (num + 273.0).ToString() + "K";
 						break;
 					case 2:
-						array[i] = (num * 9.0 / 5.0 + 32.0).ToString("0.00") + "°F";
+						n = (num * 9.0 / 5.0 + 32.0).ToString();
+						if (n.Split('.').Length == 2)
+						{
+							if (n.Split('.')[1].Length > 2)
+								array[i] = (num * 9.0 / 5.0 + 32.0).ToString("0.00") + "°F";
+							else
+								array[i] = (num * 9.0 / 5.0 + 32.0).ToString() + "°F";
+						}
+						else
+							array[i] = (num * 9.0 / 5.0 + 32.0).ToString() + "°F";
 						break;
 					default:
 						Debug.LogFormat("[State of Aggregation #{0}] Something with the temperature convert failed while randomizing it: {1}", new object[]
@@ -1385,7 +1464,7 @@ public class StateOfAggregation : MonoBehaviour {
 					Temp.text = displayedTemps[tempCounter];
 					return false;
 				default:
-					Debug.LogFormat("[State of Aggregation #{0}] Something with the buttons went wrong ... Button: {1}", new object[]
+					Debug.LogFormat("[State of Aggregation #{0}] Something with the buttons went wrong... Button: {1}", new object[]
 					{
 					_moduleID,
 					i

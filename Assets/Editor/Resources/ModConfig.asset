@@ -21,8 +21,8 @@ MonoBehaviour:
     where all temperatures (\xB0C, K and \xB0F) will be used or an easier mode where
     only \xB0C will be used.\n\nHTML: https://ktane.timwi.de/HTML/State%20of%20Aggregation.html\nPDF:
     https://ktane.timwi.de/PDF/State%20of%20Aggregation.pdf\n\nState of Aggregation
-    (stateOfAggregation) v1.0.9\nModule by Sir Bl4ckl1on, maintained by eXish\nTwitch
+    (stateOfAggregation) v1.1.0\nModule by Sir Bl4ckl1on, maintained by eXish\nTwitch
     Plays supported"
-  version: 1.0.9
+  version: 1.1.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 0b39730ecc5dbef428596d389141c8c9, type: 3}

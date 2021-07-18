@@ -669,7 +669,7 @@ public class StateOfAggregation : MonoBehaviour {
 			new string[]
 			{
 				"Sb",
-				"5",
+				"6",
 				"10",
 				"12/13/25",
 				"15"
